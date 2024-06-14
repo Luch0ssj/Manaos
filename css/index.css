@@ -1,0 +1,101 @@
+body{background-color: #f4342f;}
+
+body{
+
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.parrafouno{
+    color:#212529
+}
+
+.li{
+
+font-size: 25px;
+text-align: left;
+}
+  .li2{
+    
+font-size: 25px;
+text-align: right;
+  }
+
+  .li3{
+    font-size: 25px;
+text-align: center;
+
+  }
+
+  .practicando{
+
+    font-size: 30;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #EBD316;
+
+  }
+
+  .padre{
+    background-color: #f4342f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+  
+}
+.contenedor_limite{
+  background-color: red;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  border: 5px solid ;
+}
+.card{
+  background-color: #f4342f;
+  max-width:300px;
+  height: 400px;
+  border: 2px solid ;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.card_centrar{
+  background-color: whitesmoke;
+  max-width:300px;
+  height: 400px;
+  border: 2px solid ;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card_centrar img{
+  width: 100%;
+}
+
+
+.card img{
+  width: 100%;
+  
+}
+
+.card h2{
+  font-size: 25px;
+}
+
+.card p{
+  font-size: 15px;
+}
+
